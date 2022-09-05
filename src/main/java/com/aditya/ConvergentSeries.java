@@ -6,6 +6,9 @@
 package com.aditya;
 
 public class ConvergentSeries {
+    public static void main(String[] args) {
+
+    }
     /**
      * This method finds the sum of the series of numbers.
      *
