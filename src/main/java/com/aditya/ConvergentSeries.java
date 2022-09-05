@@ -6,4 +6,5 @@
 package com.aditya;
 
 public class ConvergentSeries {
+
 }
