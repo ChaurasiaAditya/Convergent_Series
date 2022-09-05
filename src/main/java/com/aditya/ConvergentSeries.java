@@ -24,8 +24,8 @@ public class ConvergentSeries {
 
         // Printing the Result
         System.out.println(convergentSeries.calculateSumOfSeries(number));
-
     }
+
     /**
      * This method finds the sum of the series of numbers.
      *
@@ -35,11 +35,10 @@ public class ConvergentSeries {
     public double calculateSumOfSeries(double number) {
         double sum = 0.0;
         for (int i = 2; i <= number; i++) {
-            double a = (1/Math.pow(2,i));
+            double a = (1 / Math.pow(2, i));
             sum += a;
         }
-        if (number>0)return sum + 1.0 + 0.5;
+        if (number > 0) return sum + 1.0 + 0.5;
         else return 0.0;
     }
-
 }
