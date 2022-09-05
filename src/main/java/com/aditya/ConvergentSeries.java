@@ -5,8 +5,25 @@
  */
 package com.aditya;
 
+import java.util.Scanner;
+
 public class ConvergentSeries {
     public static void main(String[] args) {
+
+        // Creating Scanner Object
+        Scanner scanner = new Scanner(System.in);
+
+        // prompt user to enter the value of number
+        System.out.println("Enter the value of number: ");
+
+        // Taking Input
+        int number = scanner.nextInt();
+
+        // call the Method
+        ConvergentSeries convergentSeries = new ConvergentSeries();
+
+        // Printing the Result
+        System.out.println(convergentSeries.calculateSumOfSeries(number));
 
     }
     /**
